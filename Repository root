@@ -1,0 +1,54 @@
+DIAM/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .env.example
+├── package.json
+├── hardhat.config.js
+├── truffle-config.js
+│
+├── contracts/              # Smart contracts (Solidity)
+│   ├── DIAM.sol
+│   └── Migrations.sol
+│
+├── scripts/                # Deployment & test scripts
+│   ├── deploy.js
+│   └── verify.js
+│
+├── test/                   # Smart contract tests
+│   └── DIAM.test.js
+│
+├── frontend/               # React-based frontend app
+│   ├── public/
+│   └── src/
+│       ├── assets/         # Images, logos, etc.
+│       ├── components/     # Reusable UI components
+│       ├── pages/          # Routes (Home, Dashboard, Login)
+│       ├── services/       # API calls, Web3 connection
+│       ├── styles/         # CSS/SCSS files
+│       ├── utils/          # Helper functions
+│       └── App.jsx
+│
+├── backend/                # Node.js/Express backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── middleware/
+│   ├── app.js
+│   └── server.js
+│
+├── docs/                   # Technical documentation
+│   ├── architecture.md
+│   ├── API_REFERENCE.md
+│   ├── ID_STANDARDS.md
+│   └── deployment_guide.md
+│
+├── deploy/                 # Deployment configurations
+│   ├── docker-compose.yml
+│   ├── nginx.conf
+│   └── start.sh
+│
+└── metadata/               # NFT-style identity metadata, schemas, etc.
+    └── example.json
